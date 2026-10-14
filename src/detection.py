@@ -13,7 +13,7 @@ def compter_echecs(sig: Signal, compteur: dict) -> int:
     compteur[sig.ip] = compteur.get(sig.ip, 0) + 1
     return compteur[sig.ip]
 
-def chercher_procedues(sig: Signal, base: dict) -> list:
+def chercher_procedures(sig: Signal, base: dict) -> list:
     msg = sig.message.lower()
     return[proc for mot, proc in base.items() if mot.lower()]
 
