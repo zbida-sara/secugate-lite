@@ -4,6 +4,7 @@ Mini-plateforme de surveillance des accès d'une application : trois agents
 (Collecte, Détection, Alerte) qui échangent via un contrat commun
 (src/contrat.py).
 ## Équipe
+ZBIDA Sara : agent Collecte (A)
 secugate-lite/
 ├── README.md
 ├── .gitignore
@@ -20,5 +21,4 @@ secugate-lite/
  ├── test_collecte.py (A)
  ├── test_detection.py (B)
  └── test_alerte.py (C)
-## Équipe
-- ZBIDA Sara : agent Collecte (A)
+
