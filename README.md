@@ -21,3 +21,5 @@ secugate-lite/
  ├── test_collecte.py (A)
  ├── test_detection.py (B)
  └── test_alerte.py (C)
+## Équipe
+- ZBIDA Sara : agent Collecte (A)
