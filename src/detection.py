@@ -15,7 +15,7 @@ def compter_echecs(sig: Signal, compteur: dict) -> int:
 
 def chercher_procedures(sig: Signal, base: dict) -> list:
     msg = sig.message.lower()
-    return[proc for mot, proc in base.items() if mot.lower()]
+    return[proc for mot, proc in base.items() if mot.lower() in msg]
 
 def evaluer(sig: Signal, nb_echecs: int = 0) -> str:
     if sig.type == "LOGIN_ECHEC":
