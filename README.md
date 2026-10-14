@@ -4,6 +4,7 @@ Mini-plateforme de surveillance des accès d'une application : trois agents
 (Collecte, Détection, Alerte) qui échangent via un contrat commun
 (src/contrat.py).
 ## Équipe
+- Seria Rime : agent alerte (c)
 secugate-lite/
 ├── README.md
 ├── .gitignore
